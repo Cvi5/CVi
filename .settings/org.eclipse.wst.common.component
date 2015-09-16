@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="foxbpm">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes/" source-path="/ImportedClasses"/>
+        <dependent-module archiveName="activation-1.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/activation-1.1/activation-1.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="avalon-framework-impl-4.3.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/avalon-framework-impl-4.3.1/avalon-framework-impl-4.3.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="avalon-framework-api-4.3.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/avalon-framework-api-4.3.1/avalon-framework-api-4.3.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="batik-anim-1.7.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/batik-anim-1.7/batik-anim-1.7">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aspectjweaver-1.6.8.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aspectjweaver-1.6.8/aspectjweaver-1.6.8">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aopalliance-1.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aopalliance-1.0/aopalliance-1.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="foxbpm"/>
+        <property name="java-output-path" value="/foxbpm/build/classes"/>
+    </wb-module>
+</project-modules>
